@@ -1,0 +1,100 @@
+Index: .idea/.gitignore
+===================================================================
+diff --git a/.idea/.gitignore b/.idea/.gitignore
+deleted file mode 100644
+--- a/.idea/.gitignore	
++++ /dev/null	
+@@ -1,3 +0,0 @@
+-# Default ignored files
+-/shelf/
+-/workspace.xml
+Index: .idea/pythonProject.iml
+===================================================================
+diff --git a/.idea/pythonProject.iml b/.idea/pythonProject.iml
+deleted file mode 100644
+--- a/.idea/pythonProject.iml	
++++ /dev/null	
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<module type="PYTHON_MODULE" version="4">
+-  <component name="NewModuleRootManager">
+-    <content url="file://$MODULE_DIR$">
+-      <excludeFolder url="file://$MODULE_DIR$/venv" />
+-    </content>
+-    <orderEntry type="inheritedJdk" />
+-    <orderEntry type="sourceFolder" forTests="false" />
+-  </component>
+-</module>
+\ No newline at end of file
+Index: main.py
+===================================================================
+diff --git a/main.py b/main.py
+deleted file mode 100644
+--- a/main.py	
++++ /dev/null	
+@@ -1,16 +0,0 @@
+-# This is a sample Python script.
+-
+-# Press Mayús+F10 to execute it or replace it with your code.
+-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+-
+-
+-def print_hi(name):
+-    # Use a breakpoint in the code line below to debug your script.
+-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+-
+-
+-# Press the green button in the gutter to run the script.
+-if __name__ == '__main__':
+-    print_hi('PyCharm')
+-
+-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/vcs.xml	
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/Ejercicio01.iml
+===================================================================
+diff --git a/.idea/Ejercicio01.iml b/.idea/Ejercicio01.iml
+new file mode 100644
+--- /dev/null	
++++ b/.idea/Ejercicio01.iml	
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/venv" />
++    </content>
++    <orderEntry type="jdk" jdkName="Python 3.10 (Ejercicio01)" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: Ejecucion2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Ejecucion2.py b/Ejecucion2.py
+new file mode 100644
+--- /dev/null	
++++ b/Ejecucion2.py	
+@@ -0,0 +1,6 @@
++a = float(input("Valor A: "))
++b = float(input("Valor B: "))
++
++result = ((3+5*8)<3 and (-6*4/3)+2 < 2) or (a > b)
++
++print(result)
+\ No newline at end of file
