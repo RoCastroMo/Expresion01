@@ -16,3 +16,8 @@ print(rental_car_cost(1))
 print(rental_car_cost(4))
 print(rental_car_cost(7))
 print(rental_car_cost(8))
+
+
+def get_age(age):
+    age2 = f'{int(age)} years old'
+    return age2
